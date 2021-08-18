@@ -1,0 +1,7 @@
+name: okc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - xeus-cling
+  - jupyter
