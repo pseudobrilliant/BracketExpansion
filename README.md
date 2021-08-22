@@ -34,18 +34,18 @@ For a valid input, print the output. For an invalid input, print nothing and exi
 
 ## Notebook Solutions
 
-To practice with the problem in a more iterative environment and language I implemented a first solution in python.
+To practice with the problem in a more iterative environment and language I implemented a **first solution in python**.
 Attached to the project is a 'notebooks' directory. You can see the results of my initial prototyping process there.
-After identifying the main algorithm pattern and some use cases I attempted a c++ solution within jupyter as well.
+After identifying the main algorithm pattern and some use cases I **created a c++ solution within jupyter as well**.
 
 Through the simplified python implementation I noticed some areas where a class structure with member variables might
 be more beneficial. So I began the c++ solution with cleaner code in mind now that I had proved my concept in python.
 
-To configure the jupyter notebook environments please run the setup bash command provided. 
-To actually run the notebooks please run the start bash command provided.
+To configure the jupyter notebook environments please run the `setup` bash command provided. 
+To actually run the notebooks please run the `start` bash command provided.
 
 ## Main Solution
 
-THe main solution is provided in the src directory, with accompanying tests running GoogleTest in the test directory.
+THe **main solution is provided in the src directory**, with **accompanying tests** running GoogleTest in the test directory.
 The Cmake files should pull the GoogleTest dependency but the src code can be built independently if desired.
 
